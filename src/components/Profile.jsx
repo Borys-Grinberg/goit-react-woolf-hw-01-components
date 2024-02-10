@@ -31,6 +31,7 @@ const Profile = ({ username, tag, location, avatar, stats }) => {
                   </li>
                   
       </ul>
+      
     </div>
   );
 };
