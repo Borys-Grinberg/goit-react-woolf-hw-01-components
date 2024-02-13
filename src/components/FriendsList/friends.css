@@ -1,3 +1,5 @@
+/* FriendList.css */
+
 .friend-list {
   display: flex;
   flex-direction: column;
@@ -6,7 +8,7 @@
   padding: 0;
 }
 
-.item1 {
+.friend-list-item {
   display: flex;
   width: 600px;
   background-color: #ddd;
@@ -16,28 +18,26 @@
   margin-bottom: 20px;
 }
 
-.status {
+.status-indicator {
   width: 20px;
   height: 20px;
   border-radius: 50%;
   margin-right: 10px;
-  margin-left: 10px;
 }
 
-.status.online {
+.status-indicator.online {
   background-color: green;
 }
 
-.status.offline {
+.status-indicator.offline {
   background-color: red;
 }
 
-.avatar2 {
+.avatar {
   border-radius: 20%;
   width: 48px;
   height: 48px;
-  margin: 10px;
-
+  margin-right: 10px;
   background-color: white;
 }
 
